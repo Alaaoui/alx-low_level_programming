@@ -15,15 +15,15 @@ int main(void)
 	lastnum = n % 10;
 	if (lastnum > 5)
 	{
-		printf("Last didgit of %d is %d is greater than 5\n", n, lastnum);
+		printf("Last digit of %d is %d is greater than 5\n", n, lastnum);
 	}
 	else if (lastnum < 5)
         {
-                printf("Last didgit of %d is %d is less than 5\n", n, lastnum);
+                printf("Last digit of %d is %d is less than 5\n", n, lastnum);
         }
 	else if (lastnum == 5)
         {
-                printf("Last didgit of %d is %d is 0\n", n, lastnum);
+                printf("Last digit of %d is %d is 0\n", n, lastnum);
         }
 	return (0);
 }
