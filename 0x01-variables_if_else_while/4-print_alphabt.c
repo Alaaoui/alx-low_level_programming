@@ -7,7 +7,8 @@
  *
  *Returns to 0
  */
-int main(void){
+int main(void)
+{
 int lowerCase = 'a';
 while (lowerCase <= 'z')
 {
@@ -22,5 +23,5 @@ lowerCase += 1;
 }
 }
 putchar('\n');
-return(0);
+return (0);
 }
