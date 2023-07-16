@@ -1,12 +1,11 @@
 #include <ctype.h>
 #include <stdio.h>
 /**
- *
  * main - entry point
  *
- *
- *Returns to 0
+ * Returns to 0
  */
+
 int main(void)
 {
 int lowerCase = 'a';
